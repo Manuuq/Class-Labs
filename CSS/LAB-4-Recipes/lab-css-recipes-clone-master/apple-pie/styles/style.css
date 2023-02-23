@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+*{
+    font-family:"open sans";
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 180px;
+    
+}
+header{
+    
+    height: 500px;
+    background-image:url(../images/apple-pie.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 50px;
+    /* background-repeat: no-repeat; */
+}
+img{
+    width: 300px;
+    padding: 20px;
+}
+.box{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 50px 200px;
+}
+.intro p{
+    text-align: justify center;
+    font-size: 20px;
+}
+.ingredients ul,
+h2{
+    text-align: left;
+}
+.instructions{
+    text-align: left;
+
+}
+.instructions h2{
+    padding: 15px 0;
+}
+.ingredients h2{
+    padding: 15px 0;
+}
+p{
+   
+    padding: 40px ;
+}
+ol{
+    list-style:none;
+}
+ol > li {
+    counter-increment: listcounter;
+  }
+  
+  ol > li::before {
+    content: counter(listcounter) ")";
+  }
+ul{
+    list-style: none;
+    /* tambien se puede hacer asi el ultimo paso 
+    list-style-type: "/"; */
+}
+  
+ul li:before{
+    content: "-";
+    padding-right: 5px;
+}
