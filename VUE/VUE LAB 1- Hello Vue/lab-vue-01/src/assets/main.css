@@ -1,0 +1,118 @@
+@import './base.css';
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*HeaderComponent*/
+
+.logo-ironhack {
+  width: 5%;
+  height: 5%;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.div-hamburguer-menu{
+    
+    width: 5%;
+    height: 7%;
+}
+.hambuerguer-menu{
+width: 100%;
+height: 100%;
+}
+
+/*DivImageVue*/
+.div-logo-vue{
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+/*TextWelcomeVue*/
+
+.big-title {
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  color: #2b2f30;
+}
+.little-title {
+  font-size: 14px;
+  font-weight: 1000;
+  color: black;
+  text-align: center;
+}
+.div-button-welcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.button-welcome {
+  background: #34495e;
+  border-radius: 13px;
+  border: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+  width: 121px;
+height: 31px;
+}
+
+/*InfoMain*/
+.container-info-div {
+  background: #39b983;
+  height: 312px;
+  margin: 2% 0 2% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+}
+
+.div-img-card {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-card {
+  max-width: 50%;
+  height: 80%;
+}
+.title-card {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 50px;
+  color: black;
+  text-align: center;
+}
+.info-card {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: black;
+}
+
